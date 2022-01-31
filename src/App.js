@@ -1,9 +1,9 @@
 import "./App.css";
-import Header from "./Header";
+import Header from "./components/Header";
 import styled from "styled-components";
-import Wrapper from "./wrapper";
-import Table from "./table";
-import Rules from "./rules";
+import Wrapper from "./components/wrapper";
+import Table from "./components/table";
+import Rules from "./components/rules";
 import { createContext, useState } from "react";
 
 export const ScoreContext = createContext();

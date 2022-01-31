@@ -1,6 +1,6 @@
 import React, { useContext, useState } from "react";
 import styled from "styled-components";
-import { ScoreContext } from "./App";
+import { ScoreContext } from "../App";
 import { WhiteButton } from "./button";
 import Token from "./token";
 
